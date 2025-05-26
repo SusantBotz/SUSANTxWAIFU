@@ -31,4 +31,4 @@ WORKDIR /app/
 RUN pip3 install --no-cache-dir -U -r requirements.txt
 
 # Run the bot
-CMD ["python3", "-m", "TEAMZYRO"]
+CMD ["python3", "-m", "NOBITA"]
