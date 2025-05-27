@@ -85,12 +85,12 @@ user_nguess_progress = {}
 user_guess_progress = {}
 
 # -------------------------- POWER SETUP --------------------------------
-from NOBITA.unit.zyro_ban import *
-from NOBITA.unit.zyro_sudo import *
-from NOBITA.unit.zyro_react import *
-from NOBITA.unit.zyro_log import *
-from NOBITA.unit.zyro_send_img import *
-from NOBITA.unit.zyro_rarity import *
+from NOBITA.unit.NOBITA_ban import *
+from NOBITA.unit.NOBITA_sudo import *
+from NOBITA.unit.NOBITA_react import *
+from NOBITA.unit.NOBITA_log import *
+from NOBITA.unit.NOBITA_send_img import *
+from NOBITA.unit.NOBITA_rarity import *
 # ------------------------------------------------------------------------
 
 async def PLOG(text: str):
