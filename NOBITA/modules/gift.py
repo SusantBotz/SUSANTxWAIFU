@@ -17,7 +17,7 @@ async def auto_cancel_gift(sender_id, receiver_id):
         del pending_gifts[(sender_id, receiver_id)]
         print(f"Gift from {sender_id} to {receiver_id} auto-cancelled after 1 hour.")  # Debugging
 
-@ZYRO.on_message(filters.command("gift"))
+@NOBITA.on_message(filters.command("gift"))
 async def gift(client, message):
     sender_id = message.from_user.id
 
