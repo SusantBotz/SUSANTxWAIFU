@@ -2,7 +2,7 @@ import asyncio
 from pyrogram import Client, filters, types as t
 from pyrogram.types import InlineKeyboardMarkup, InlineKeyboardButton
 from datetime import datetime, timedelta
-from NOBITA import ZYRO as bot
+from NOBITA import NOBITA as bot
 from NOBITA import user_collection, collection, SUPPORT_CHAT_ID as chat
 
 async def get_unique_characters(user_id, target_rarities):
