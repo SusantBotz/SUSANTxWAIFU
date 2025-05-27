@@ -94,7 +94,7 @@ async def gift(client, message):
     asyncio.create_task(auto_cancel_gift(sender_id, receiver_id))
 
 
-@ZYRO.on_callback_query(filters.create(lambda _, __, query: query.data in ["confirm_gift", "cancel_gift"]))
+@NOBITA.on_callback_query(filters.create(lambda _, __, query: query.data in ["confirm_gift", "cancel_gift"]))
 async def on_callback_query(client, callback_query):
     sender_id = callback_query.from_user.id
 
