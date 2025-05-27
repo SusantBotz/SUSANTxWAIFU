@@ -76,7 +76,7 @@ def upload_to_catbox(file_path=None, file_url=None, expires=None, secret=None):
         else:
             raise Exception(f"Error uploading to Catbox: {response.text}")
 
-@ZYRO.on_message(filters.command(["find"]))
+@NIBITA.on_message(filters.command(["find"]))
 @require_power("add_character")
 async def ul(client, message):
     available_id = await find()
