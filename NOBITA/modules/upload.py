@@ -3,7 +3,7 @@ import requests
 from pyrogram import Client, filters
 from pymongo import ReturnDocument
 from gridfs import GridFS
-from NOBITA import application, CHARA_CHANNEL_ID, SUPPORT_CHAT, OWNER_ID, collection, user_collection, db, SUDO, rarity_map, ZYRO, require_power
+from NOBITA import application, CHARA_CHANNEL_ID, SUPPORT_CHAT, OWNER_ID, collection, user_collection, db, SUDO, rarity_map, NOBITA, require_power
 
 # Define the wrong format message and rarity map
 WRONG_FORMAT_TEXT = """Wrong ❌ format...  eg. /upload reply to photo muzan-kibutsuji Demon-slayer 3
