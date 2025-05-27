@@ -2,7 +2,7 @@ from pyrogram import Client, filters
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup, CallbackQuery
 from pymongo import MongoClient
 
-from TEAMZYRO import OWNER_ID
+from NOBITA import OWNER_ID
 
 from NOBITA import app, db, require_power
 from functools import wraps
