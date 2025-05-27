@@ -6,7 +6,7 @@ from pyrogram import Client, filters
 from pyrogram.types import InlineKeyboardMarkup, InlineKeyboardButton, CallbackQuery
 
 from NOBITA import *
-from NOBITA.unit.zyro_help import HELP_DATA  
+from NOBITA.unit.nobita_help import HELP_DATA  
 
 NEXI_VID = [
     "https://telegra.ph/file/1a3c152717eb9d2e94dc2.mp4",
