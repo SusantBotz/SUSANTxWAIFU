@@ -76,7 +76,7 @@ def upload_to_catbox(file_path=None, file_url=None, expires=None, secret=None):
         else:
             raise Exception(f"Error uploading to Catbox: {response.text}")
 
-@NIBITA.on_message(filters.command(["find"]))
+@NOBITA.on_message(filters.command(["find"]))
 @require_power("add_character")
 async def ul(client, message):
     available_id = await find()
@@ -89,7 +89,7 @@ import asyncio
 
 upload_lock = asyncio.Lock()  # Lock for handling concurrent uploads
 
-@ZYRO.on_message(filters.command(["gupload"]))
+@NOBITA.on_message(filters.command(["gupload"]))
 @require_power("add_character")
 async def ul(client, message):
     global upload_lock
