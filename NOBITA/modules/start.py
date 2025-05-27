@@ -48,10 +48,10 @@ async def generate_start_message(client, message):
 
     buttons = [
         [InlineKeyboardButton("Add to Your Group", url=f"https://t.me/{bot_user.username}?startgroup=true")],
-        [InlineKeyboardButton("Support", url="https://t.me/+wPjAlUcObehiZDM1")], 
-         InlineKeyboardButton("Channel", url="https://t.me/NOBITA_MUSIC_SUPPORT")],
+        [InlineKeyboardButton("Support", url=SUPPORT_CHAT), 
+         InlineKeyboardButton("Channel", url=UPDATE_CHAT)],
         [InlineKeyboardButton("Help", callback_data="open_help")],
-        [InlineKeyboardButton("GitHub", url="https://t.me/+wPjAlUcObehiZDM1")]  # GitHub button added here
+        [InlineKeyboardButton("GitHub", url="https://t.me/ll_NOBITA_DEFAULTERS_ll")]  # GitHub button added here
     ]
     
     return caption, InlineKeyboardMarkup(buttons)
