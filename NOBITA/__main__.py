@@ -9,7 +9,7 @@ def main() -> None:
         imported_module = importlib.import_module("NOBITA.modules." + module_name)
     LOGGER("NOBITA.modules").info("𝐀𝐥𝐥 𝐅𝐞𝐚𝐭𝐮𝐫𝐞𝐬 𝐋𝐨𝐚𝐝𝐞𝐝 𝐁𝐚𝐛𝐲🥳...")
 
-    ZYRO.start()
+    NOBITA.start()
     application.run_polling(drop_pending_updates=True)
     send_start_message()
     LOGGER("NOBITA").info(
