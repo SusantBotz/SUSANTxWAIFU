@@ -51,7 +51,7 @@ async def generate_start_message(client, message):
         [InlineKeyboardButton("Support", url=SUPPORT_CHAT), 
          InlineKeyboardButton("Channel", url=UPDATE_CHAT)],
         [InlineKeyboardButton("Help", callback_data="open_help")],
-        [InlineKeyboardButton("GitHub", url="https://t.me/ll_NOBITA_DEFAULTERS_ll")]  # GitHub button added here
+        [InlineKeyboardButton("Owner", url="https://t.me/ll_NOBITA_DEFAULTERS_ll")]  # GitHub button added here
     ]
     
     return caption, InlineKeyboardMarkup(buttons)
