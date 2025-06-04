@@ -1,5 +1,5 @@
 from pymongo import ReturnDocument
-from NOBITA import app, gaming_group_total,
+from NOBITA import app gaming_group_total
 from pyrogram import filters
 from pyrogram.types import Message
 from NOBITA.pro import sudo_filter
