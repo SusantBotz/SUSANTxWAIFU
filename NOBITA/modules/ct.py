@@ -1,5 +1,5 @@
 from pymongo import ReturnDocument
-from NOBITA import app, group_user_totals_collection, sudo_filter
+from NOBITA import app, gaming_group_total,
 from pyrogram import filters
 from pyrogram.types import Message
 from NOBITA.pro import sudo_filter
@@ -25,7 +25,7 @@ async def change_time_sudo(client, message: Message):
             return
 
         # Update the message_frequency in MongoDB for this chat
-        await group_user_totals_collection.find_one_and_update(
+        await gaming_group_total.find_one_and_update(
             {'chat_id': message.chat.id},
             {'$set': {'message_frequency': new_frequency}},
             upsert=True,
@@ -43,7 +43,7 @@ async def track_user_messages(client, message: Message):
     user_id = message.from_user.id
 
     # Fetch chat settings from DB or default to frequency=1
-    chat_settings = await group_user_totals_collection.find_one({'chat_id': chat_id}) or {}
+    chat_settings = await gaming_group_total.find_one({'chat_id': chat_id}) or {}
     message_frequency = chat_settings.get('message_frequency', 1)
 
     if chat_id not in chat_message_counts:
