@@ -30,8 +30,8 @@ api_hash = os.getenv("API_HASH", "7b1962ba0ba82d6658cfe84175b05336")   # Fetch f
 
 TOKEN = os.getenv("TOKEN", "7990481567:AAGFsiEQ5lO4J8XuNmIoz2RGMDQ_vUB4tQA")          # Fetch from environment variable
 
-GLOG = os.getenv("GLOG", "NobitaGrabberBot001") # USERNAME ONLY
-CHARA_CHANNEL_ID = os.getenv("CHARA_CHANNEL_ID", "NobitaGrabberBot01") #USERNAME ONLY
+GLOG = os.getenv("GLOG", "WaguriGrabberDb") # USERNAME ONLY
+CHARA_CHANNEL_ID = os.getenv("CHARA_CHANNEL_ID", "WaguriGrabberDb") #USERNAME ONLY
 SUPPORT_CHAT_ID = os.getenv("SUPPORT_CHAT_ID", "-1002618578974") #USERNAME ONLY
 
 mongo_url = os.getenv("MONGO_URL", "mongodb+srv://susantxbotz:vGmf4pFy1MEijuZF@cluster0.viyjnvi.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")  # Fetch from environment variable
