@@ -1,7 +1,7 @@
 # Welcome to Our Project
 ## Quick Deploy to Heroku
 
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://dashboard.heroku.com/new?template=https://github.com/abhaysinghchauhan001/NOBITAxNGUESS)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://dashboard.heroku.com/new?template=https://github.com/abhaysinghchauhan009/SUSANTXWAIFU)
 
 Join our Telegram community to stay updated and get support!
 
