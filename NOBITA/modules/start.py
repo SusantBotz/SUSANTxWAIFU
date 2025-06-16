@@ -34,7 +34,7 @@ async def generate_start_message(client, message):
     ping = round(time.time() - message.date.timestamp(), 2)
     uptime = get_uptime()
     
-    caption = f"""🍃 ɢʀᴇᴇᴛɪɴɢs, ɪ'ᴍ {bot_name} 🫧, ɴɪᴄᴇ ᴛᴏ ᴍᴇᴇᴛ ʏᴏᴜ!
+    caption = f"""🐉 ɢʀᴇᴇᴛɪɴɢs, ɪ'ᴍ {bot_name} 🫧, ɴɪᴄᴇ ᴛᴏ ᴍᴇᴇᴛ ʏᴏᴜ!
 ━━━━━━━▧▣▧━━━━━━━
 ⦾ ᴡʜᴀᴛ ɪ ᴅᴏ: ɪ sᴘᴀᴡɴ   
      ᴡᴀɪғᴜs ɪɴ ʏᴏᴜʀ ᴄʜᴀᴛ ғᴏʀ
@@ -48,10 +48,10 @@ async def generate_start_message(client, message):
 
     buttons = [
         [InlineKeyboardButton("Add to Your Group", url=f"https://t.me/{bot_user.username}?startgroup=true")],
-        [InlineKeyboardButton("Support", url=SUPPORT_CHAT), 
-         InlineKeyboardButton("Channel", url=UPDATE_CHAT)],
-        [InlineKeyboardButton("Help", callback_data="open_help")],
-        [InlineKeyboardButton("Owner", url="https://t.me/ll_NOBITA_DEFAULTERS_ll")]  # GitHub button added here
+        [InlineKeyboardButton("❍ Sᴜᴘᴘᴏʀᴛ❍ ", url=SUPPORT_CHAT), 
+         InlineKeyboardButton("❍ Cʜᴀɴɴᴇʟ❍ ", url=UPDATE_CHAT)],
+        [InlineKeyboardButton("❍Hᴇʟᴘ ❍", callback_data="open_help")],
+        [InlineKeyboardButton("❍Oᴡɴᴇʀ ❍", url="https://t.me/IM_SUSANT")]  # GitHub button added here
     ]
     
     return caption, InlineKeyboardMarkup(buttons)
