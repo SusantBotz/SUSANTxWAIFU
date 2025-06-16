@@ -36,8 +36,8 @@ SUPPORT_CHAT_ID = os.getenv("SUPPORT_CHAT_ID", "-1002618578974") #USERNAME ONLY
 
 mongo_url = os.getenv("MONGO_URL", "mongodb+srv://susantxbotz:vGmf4pFy1MEijuZF@cluster0.viyjnvi.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")  # Fetch from environment variable
 PHOTO_URL = [
-    os.getenv("PHOTO_URL_1", "https://files.catbox.moe/7ccoub.jpg"),
-    os.getenv("PHOTO_URL_2", "https://files.catbox.moe/7ccoub.jpg")
+    os.getenv("PHOTO_URL_1", "https://files.catbox.moe/e52bpl.jpg"),
+    os.getenv("PHOTO_URL_2", "https://files.catbox.moe/e52bpl.jpg")
 ]
 
 SUPPORT_CHAT = os.getenv("SUPPORT_CHAT", "https://t.me/DragonByteGc")
