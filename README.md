@@ -1,4 +1,7 @@
 # Welcome to Our Project
+## Quick Deploy to Heroku
+
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://dashboard.heroku.com/new?template=https://github.com/abhaysinghchauhan001/NOBITAxNGUESS)
 
 Join our Telegram community to stay updated and get support!
 
