@@ -25,26 +25,26 @@ def LOGGER(name: str) -> logging.Logger:
     return logging.getLogger(name)
 
 # ---------------------------- CONSTANTS ---------------------------------
-api_id = os.getenv("API_ID", "28269355")  # Fetch from environment variable
-api_hash = os.getenv("API_HASH", "805b8c6577a8c30db439d901af544cac")   # Fetch from environment variable
+api_id = os.getenv("API_ID", "24411804")  # Fetch from environment variable
+api_hash = os.getenv("API_HASH", "7b1962ba0ba82d6658cfe84175b05336")   # Fetch from environment variable
 
-TOKEN = os.getenv("TOKEN", "7556031866:AAFRrkLSeK23mne7AqlNjV-Z4eFmJzuWi3M")          # Fetch from environment variable
+TOKEN = os.getenv("TOKEN", "7990481567:AAGFsiEQ5lO4J8XuNmIoz2RGMDQ_vUB4tQA")          # Fetch from environment variable
 
 GLOG = os.getenv("GLOG", "NobitaGrabberBot001") # USERNAME ONLY
 CHARA_CHANNEL_ID = os.getenv("CHARA_CHANNEL_ID", "NobitaGrabberBot01") #USERNAME ONLY
-SUPPORT_CHAT_ID = os.getenv("SUPPORT_CHAT_ID", "-1002506225416") #USERNAME ONLY
+SUPPORT_CHAT_ID = os.getenv("SUPPORT_CHAT_ID", "-1002618578974") #USERNAME ONLY
 
-mongo_url = os.getenv("MONGO_URL", "mongodb+srv://iamnobita1:nobitamusic1@cluster0.k08op.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")  # Fetch from environment variable
+mongo_url = os.getenv("MONGO_URL", "mongodb+srv://susantxbotz:vGmf4pFy1MEijuZF@cluster0.viyjnvi.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")  # Fetch from environment variable
 PHOTO_URL = [
     os.getenv("PHOTO_URL_1", "https://files.catbox.moe/7ccoub.jpg"),
     os.getenv("PHOTO_URL_2", "https://files.catbox.moe/7ccoub.jpg")
 ]
 
-SUPPORT_CHAT = os.getenv("SUPPORT_CHAT", "https://t.me/+WLTHgUAvkYVmNTg9")
-UPDATE_CHAT = os.getenv("UPDATE_CHAT", "https://t.me/NOBITA_MUSIC_SUPPORT")
+SUPPORT_CHAT = os.getenv("SUPPORT_CHAT", "https://t.me/DragonByteGc")
+UPDATE_CHAT = os.getenv("UPDATE_CHAT", "https://t.me/SusantxBotz")
 
-SUDO = list(map(int, os.getenv("SUDO", "5536473064,5909658683").split(',')))
-OWNER_ID = int(os.getenv("OWNER_ID", "5536473064"))
+SUDO = list(map(int, os.getenv("SUDO", "7705396798 7968389767").split(',')))
+OWNER_ID = int(os.getenv("OWNER_ID", "7968389767"))
 
 # --------------------- TELEGRAM BOT CONFIGURATION -----------------------
 command_filter = f.create(lambda _, __, message: message.text and message.text.startswith("/"))
