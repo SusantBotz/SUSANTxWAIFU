@@ -30,8 +30,8 @@ api_hash = os.getenv("API_HASH", "7b1962ba0ba82d6658cfe84175b05336")   # Fetch f
 
 TOKEN = os.getenv("TOKEN", "7990481567:AAGFsiEQ5lO4J8XuNmIoz2RGMDQ_vUB4tQA")          # Fetch from environment variable
 
-GLOG = os.getenv("GLOG", "WaguriGrabberDb") # USERNAME ONLY
-CHARA_CHANNEL_ID = os.getenv("CHARA_CHANNEL_ID", "-1002734744104") #USERNAME ONLY
+GLOG = os.getenv("GLOG", "") # USERNAME ONLY
+CHARA_CHANNEL_ID = os.getenv("CHARA_CHANNEL_ID", "WaguriGrabberDb") #USERNAME ONLY
 SUPPORT_CHAT_ID = os.getenv("SUPPORT_CHAT_ID", "-1002618578974") #USERNAME ONLY
 
 mongo_url = os.getenv("MONGO_URL", "mongodb+srv://susantxbotz:vGmf4pFy1MEijuZF@cluster0.viyjnvi.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")  # Fetch from environment variable
@@ -43,7 +43,7 @@ PHOTO_URL = [
 SUPPORT_CHAT = os.getenv("SUPPORT_CHAT", "https://t.me/DragonByteGc")
 UPDATE_CHAT = os.getenv("UPDATE_CHAT", "https://t.me/SusantxBotz")
 
-SUDO = list(map(int, os.getenv("SUDO", "7705396798 7968389767").split(',')))
+SUDO = list(map(int, os.getenv("SUDO", "5536473064").split(',')))
 OWNER_ID = int(os.getenv("OWNER_ID", "7968389767"))
 
 # --------------------- TELEGRAM BOT CONFIGURATION -----------------------
