@@ -30,7 +30,7 @@ api_hash = os.getenv("API_HASH", "7b1962ba0ba82d6658cfe84175b05336")   # Fetch f
 
 TOKEN = os.getenv("TOKEN", "7990481567:AAGFsiEQ5lO4J8XuNmIoz2RGMDQ_vUB4tQA")          # Fetch from environment variable
 
-GLOG = os.getenv("GLOG", "") # USERNAME ONLY
+GLOG = os.getenv("GLOG", "WaguriGrabberBot_Log") # USERNAME ONLY
 CHARA_CHANNEL_ID = os.getenv("CHARA_CHANNEL_ID", "WaguriGrabberDb") #USERNAME ONLY
 SUPPORT_CHAT_ID = os.getenv("SUPPORT_CHAT_ID", "-1002618578974") #USERNAME ONLY
 
