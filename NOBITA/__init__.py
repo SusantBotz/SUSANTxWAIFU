@@ -25,8 +25,8 @@ def LOGGER(name: str) -> logging.Logger:
     return logging.getLogger(name)
 
 # ---------------------------- CONSTANTS ---------------------------------
-api_id = os.getenv("API_ID", "24411804")  # Fetch from environment variable
-api_hash = os.getenv("API_HASH", "7b1962ba0ba82d6658cfe84175b05336")   # Fetch from environment variable
+api_id = os.getenv("API_ID", "21134445")  # Fetch from environment variable
+api_hash = os.getenv("API_HASH", "231c18ea7273824491d6bf05425ab74e")   # Fetch from environment variable
 
 TOKEN = os.getenv("TOKEN", "7990481567:AAGFsiEQ5lO4J8XuNmIoz2RGMDQ_vUB4tQA")          # Fetch from environment variable
 
@@ -44,7 +44,7 @@ SUPPORT_CHAT = os.getenv("SUPPORT_CHAT", "https://t.me/DragonByteGc")
 UPDATE_CHAT = os.getenv("UPDATE_CHAT", "https://t.me/SusantxBotz")
 
 SUDO = list(map(int, os.getenv("SUDO", "5536473064").split(',')))
-OWNER_ID = int(os.getenv("OWNER_ID", "7968389767"))
+OWNER_ID = int(os.getenv("OWNER_ID", "8156708830"))
 
 # --------------------- TELEGRAM BOT CONFIGURATION -----------------------
 command_filter = f.create(lambda _, __, message: message.text and message.text.startswith("/"))
